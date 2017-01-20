@@ -1,0 +1,60 @@
+/* _recycled.scss */
+
+
+
+select:active {
+}
+
+select:focus {
+
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+.highlighted {
+    background: yellow;
+}
+
+.hide-border-top {
+    border-top:none;
+    label {display:none;}
+}
+
+.color-amber {
+    color: #FFA500;
+}
+
+.color-good {
+    color: #1fbb1f;
+}
+
+.color-danger {
+    color: #FF0000;
+}
+
+.bg-light {}
+
+/* tmp */
+body {  }
+
+/* forms */
+.form-group label {@include trimString;text-transform:capitalize;}
+
+/* offsets */
+.padding-x-0 {padding-left:0px !important;padding-right:0px !important;}
+.margin-x-0 {margin-left:0px !important;margin-right:0px !important;}
+
+.html-file-name {
+    margin-left:10px;font-size:0.5em;
+    color:#aaa;
+}
+
+.display-none {display:none !important}
+.display-block {display:block !important}
+.display-inline-block {display:inline-block !important}
+
+section {
+  margin: 0 20px;
+}

@@ -1,0 +1,73 @@
+<template>
+  <require from="../widgets/form-input"></require>
+  <require from="../widgets/form-select"></require>
+
+  <h1>${title}<span class="html-file-name">(user-add.html)</span></h1>
+
+  <form role="form" class="form-horizontal">
+    <div class="panel panel-primary">
+      <div class="panel-body">
+
+        <form-input name="first-name" value.two-way="user.first-name" inp-class="col-sm-6"></form-input>
+        <form-input name="last-name" value.two-way="user.last-name" inp-class="col-sm-6"></form-input>
+        <form-input name="username" value.two-way="user.username" inp-class="col-sm-6"></form-input>
+        <form-input name="email" value.two-way="user.email" inp-class="col-sm-6"></form-input>
+        <form-input name="phone-number" value.two-way="user.phone-number" inp-class="col-sm-6"></form-input>
+        <form-input name="avatar" value.two-way="user.avatar" inp-class="col-sm-6"></form-input>
+
+      </div>
+    </div>
+
+    <div class="panel panel-primary">
+      <div class="panel-body">
+
+        <form-select name="selRegion" value.two-way="user.selRegion" inp-class="col-sm-6"></form-select>
+        <form-select name="selHub" value.two-way="user.selHub" inp-class="col-sm-6"></form-select>
+        <form-select name="selSegment" value.two-way="user.selSegment" inp-class="col-sm-6"></form-select>
+        <form-select name="selEntity" value.two-way="user.selEntity" inp-class="col-sm-6"></form-select>
+
+      </div>
+    </div>
+
+    <div class="panel panel-primary margin-x-0">
+      <div class="panel-body">
+
+        <form-input name="function" value.two-way="user.function" inp-class="col-sm-6"></form-input>
+        <form-input name="location" value.two-way="user.location" inp-class="col-sm-6"></form-input>
+        <form-input name="bp-office" value.two-way="user.bp-office" inp-label="BPxxx Office" inp-class="col-sm-6"></form-input>
+        <form-input name="cell-number-business" value.two-way="user.cell-number-business" inp-class="col-sm-6"></form-input>
+        <form-input name="cell-number-personal" value.two-way="user.cell-number-personal" inp-class="col-sm-6"></form-input>
+        <form-input name="office-number" value.two-way="user.office-number" inp-class="col-sm-6"></form-input>
+        <form-input name="lync-number" value.two-way="user.lync-number" inp-class="col-sm-6"></form-input>
+        <form-input name="home-number" value.two-way="user.home-number" inp-class="col-sm-6"></form-input>
+
+      </div>
+    </div>
+
+    <div class="panel panel-primary">
+      <div class="panel-body">
+
+        <form-input name="line-manager" value.two-way="user.line-manager" inp-class="col-sm-6"></form-input>
+        <form-input name="line-manager-email" value.two-way="user.line-manager-email" inp-class="col-sm-6"></form-input>
+        <form-input name="line-manager-ntid" value.two-way="user.line-manager-ntid" inp-label="Line Manager NTID" inp-class="col-sm-6"></form-input>
+        <form-input name="emergency-contact-name" value.two-way="user.emergency-contact-name" inp-class="col-sm-6"></form-input>
+        <form-input name="emergency-contact-number" value.two-way="user.emergency-contact-number" inp-class="col-sm-6"></form-input>
+
+      </div>
+    </div>
+
+    <div class="panel panel-primary">
+
+    <div class="panel-body">
+
+        <!--<div repeat.for="elem of newUser">
+          <p>${elem.name} / ${elem.val} / ${elem.label}</p>
+          <form-input name="${elem.name}" model.bind="elem.val" inp-label="${elem.label}" inp-class="col-sm-6"></form-input>
+        </div>-->
+
+    </div>
+  </div>
+
+  </form>
+
+</template>
