@@ -1,10 +1,9 @@
 <template>
-  
+  <require from="./views/ui/nav-bar"></require>
+  <require from="./views/ui/ui-footer"></require>
   <require from="font-awesome.css"></require>
   <link href="src/css/main.css" rel="stylesheet" />
   <link href="src/css/bootstrap.min.css" rel="stylesheet" />
-  
-  <require from="./views/ui/nav-bar"></require>
 
   <loading-indicator loading.bind="router.isNavigating || api.isRequesting"></loading-indicator>
 
@@ -15,5 +14,7 @@
       <router-view></router-view>
     </div>
   </div>
+
+  <ui-footer></ui-footer>
 
 </template>

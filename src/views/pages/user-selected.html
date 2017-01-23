@@ -7,14 +7,13 @@
     <hr>
   </div>
 
-  <user-list class="col-md-8"></user-list>
+  <user-list class="col-xs-12 col-md-8"></user-list>
 
-  <div bind.if="user" class="col-md-4">
+  <div bind.if="user" class="col-xs-12 col-md-4">
     <user-edit user.bind="user"></user-edit>
     <div class="button-bar col-md-12">
       <button class="btn btn-success" click.delegate="save()" disabled.bind="!canSave">Save</button>
     </div>
   </div>
-
 
 </template>

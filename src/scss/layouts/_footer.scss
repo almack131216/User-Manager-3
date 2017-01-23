@@ -2,8 +2,9 @@
 
 footer {
     overflow: hidden;
-    background: white;
+    background: $bp_color-lightgray;
     border-top:1px solid $border-color;
+    padding-top:$offset-1;
 
     ul.ul-inline-piped {
         display:inline-block;

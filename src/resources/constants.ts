@@ -1,3 +1,6 @@
+export const COPYRIGHT = '© 2017';
+export const SITE_OWNER_ABBR = 'BP';
+export const SITE_OWNER = 'British Petroleum';
 export const SITE_NAME_ABBR = 'MRT';
 export const SITE_NAME = 'Mutual Response Team';
 export const AYS = "Are you sure";
