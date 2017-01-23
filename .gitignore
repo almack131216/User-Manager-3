@@ -6,3 +6,5 @@ bootstrap-config/bootstrap/css
 bootstrap-config/bootstrap/js
 _excess
 fonts
+src/css/bp-responsive.svg
+src/resources/constants.ts
