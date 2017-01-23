@@ -780,6 +780,35 @@ section {
   color: black;
 }
 
+/* _fixed-footer.scss */
+@media all and (min-width: 641px) {
+  /* line 6, C:/Users/AMackenzie/Documents/WORK/MRT/site3/user manager 3/src/scss/base/_fixed-footer.scss */
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  /* line 12, C:/Users/AMackenzie/Documents/WORK/MRT/site3/user manager 3/src/scss/base/_fixed-footer.scss */
+  #container-fixed-footer {
+    min-height: 100%;
+    position: relative;
+  }
+  /* line 19, C:/Users/AMackenzie/Documents/WORK/MRT/site3/user manager 3/src/scss/base/_fixed-footer.scss */
+  #body {
+    padding-bottom: 70px;
+    /* Height of the footer */
+  }
+  /* line 22, C:/Users/AMackenzie/Documents/WORK/MRT/site3/user manager 3/src/scss/base/_fixed-footer.scss */
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 50px;
+    /* Height of the footer */
+  }
+}
+
 /* MODULES - individual site components */
 /* _typography.scss */
 /* line 3, C:/Users/AMackenzie/Documents/WORK/MRT/site3/user manager 3/src/scss/modules/_typography.scss */
