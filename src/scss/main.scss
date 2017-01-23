@@ -5,6 +5,7 @@ CIS CRS Sass Theme
 Author: Alex Mackenzie
 Version: 0.0.1
 */
+@import 'bootstrap.min.css';
 
 /* BASE - base styles, variables, mixins etc */
 @import 'base/_base-reset.scss';
