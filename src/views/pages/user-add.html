@@ -5,7 +5,8 @@
   <h1>${title}<span class="html-file-name">(user-add.html)</span></h1>
 
   <form role="form" class="form-horizontal">
-    <div class="panel panel-primary">
+    <div class="panel panel-default">
+      <div class="panel-heading">User</div>
       <div class="panel-body row row-col-xxs-12 row-col-xs-6 row-col-sm-6 row-col-md-6 row-col-lg-4">
 
         <form-input name="first-name" value.two-way="user.first-name"></form-input>
@@ -18,7 +19,8 @@
       </div>
     </div>
 
-    <div class="panel panel-primary">
+    <div class="panel panel-default">
+      <div class="panel-heading">Region</div>
       <div class="panel-body row row-col-xxs-12 row-col-xs-6 row-col-sm-6 row-col-md-6 row-col-lg-6">
 
         <form-select name="selRegion" value.two-way="user.selRegion"></form-select>
@@ -29,7 +31,8 @@
       </div>
     </div>
 
-    <div class="panel panel-primary margin-x-0">
+    <div class="panel panel-default">
+      <div class="panel-heading">Other Contacts</div>
       <div class="panel-body row row-col-xxs-12 row-col-xs-6 row-col-sm-6 row-col-md-6 row-col-lg-4">
 
         <form-input name="function" value.two-way="user.function"></form-input>
@@ -41,11 +44,7 @@
         <form-input name="lync-number" value.two-way="user.lync-number"></form-input>
         <form-input name="home-number" value.two-way="user.home-number"></form-input>
 
-      </div>
-    </div>
 
-    <div class="panel panel-primary">
-      <div class="panel-body row row-col-xxs-12 row-col-xs-6 row-col-sm-6 row-col-md-6 row-col-lg-4">
 
         <form-input name="line-manager" value.two-way="user.line-manager"></form-input>
         <form-input name="line-manager-email" value.two-way="user.line-manager-email"></form-input>
@@ -53,10 +52,49 @@
         <form-input name="emergency-contact-name" value.two-way="user.emergency-contact-name"></form-input>
         <form-input name="emergency-contact-number" value.two-way="user.emergency-contact-number"></form-input>
 
+        <div class="divider"></div>
+
+        <form-input name="member-status" value.two-way="user.member-status"></form-input>
+        <form-input name="date-joined" value.two-way="user.date-joined"></form-input>
+        <form-input name="vest-colour" value.two-way="user.vest-colour"></form-input>
+        <form-input name="coast-size" value.two-way="user.coast-size"></form-input>
+        <form-input name="primary-ics" value.two-way="user.primary-ics"></form-input>
+        <form-input name="secondary-ics" value.two-way="user.secondary-ics"></form-input>
+        <form-input name="previous-role" value.two-way="user.previous-role"></form-input>
+
+        <div class="divider"></div>
+
+        <form-input name="language" value.two-way="user.language"></form-input>
+        <form-input name="language-level" value.two-way="user.language-level"></form-input>
+
       </div>
     </div>
 
-    <div class="panel panel-primary">
+    <div class="panel panel-default">
+      <div class="panel-heading">Passport</div>
+      <div class="panel-body row row-col-xxs-12 row-col-xs-6 row-col-sm-6 row-col-md-6 row-col-lg-6">
+
+        <form-input name="passport-type" value.two-way="user.passport-type"></form-input>
+        <form-input name="passport-number" value.two-way="user.passport-number"></form-input>
+        <form-input name="passport-nationality" value.two-way="user.passport-nationality"></form-input>
+        <form-input name="passport-expiry-date" value.two-way="user.passport-expiry-date"></form-input>
+
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">Visa</div>
+      <div class="panel-body row row-col-xxs-12 row-col-xs-6 row-col-sm-6 row-col-md-6 row-col-lg-6">
+
+        <form-input name="visa-country" value.two-way="user.visa-country"></form-input>
+        <form-input name="visa-expiry-date" value.two-way="user.visa-expiry-date"></form-input>
+        <form-input name="visa-type" value.two-way="user.visa-type"></form-input>
+        <form-input name="multiple-visas" value.two-way="user.multiple-visas"></form-input>
+
+      </div>
+    </div>
+
+    <div class="panel panel-primary display-none">
 
     <div class="panel-body">
 
